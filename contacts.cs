@@ -11,7 +11,7 @@ namespace contacts
        
      public  void AddContact( Dictionary<string, double> contact)
         {         
-          Console.WriteLine("enter the nammmmmmmmmmmmmmmmmmmmmmmmmmmmme") ;
+          Console.WriteLine("enter the name") ;
           contactName = Console.ReadLine();
           Console.WriteLine("enter the number");
           phNo = Convert.ToDouble(Console.ReadLine());
